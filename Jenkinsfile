@@ -4,8 +4,18 @@ pipeline {
     stages {
         stage ('Compile Stage') {
             steps {
-                echo "hello"
+                echo "Compile"
+            }
+        }
+        stage ('Testing Stage') {
+            steps {
+                echo "Testing"
             }
         } 
+        stage ('Deployment Stage') {
+            steps {
+                echo "Deployment"
+            }
+        }         
     }
 }
