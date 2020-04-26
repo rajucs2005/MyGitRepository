@@ -3,9 +3,8 @@ pipeline {
 
     stages {
         stage ('Compile Stage') {
-
             steps {
-                sh "date"
+                echo hello
             }
         } 
     }
