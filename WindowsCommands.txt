@@ -1,0 +1,5 @@
+--To find port usage 
+netstat -ano | findstr :57033
+
+--To find established ports
+netstat -ab | findstr ESTABLISHED
